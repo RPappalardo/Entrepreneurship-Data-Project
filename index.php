@@ -51,7 +51,17 @@ height: auto;
 color: #ffffff;
 line-height: 1;
 font-weight: 800;
-font-size: 1.8em;
+font-size: 1.9em;
+}
+#icon1, #icon2, #icon3 {
+  /*  float: left; */
+  align-content: center;
+text-align: center;
+display: block;
+width: 100%;
+height: auto;
+color: #ffffff;
+line-height: 1;
 }
 
 .subscribeHere, .subscribeHere::after {
@@ -127,7 +137,7 @@ var ajax_object = {"ajax_url":"http:\/\/homegrowntools.unc.edu\/wp-admin\/admin-
 
 					<!--	<h2 class="survey">DATABASE<br />RESULTS</h2> -->
         <b><h2 class= "fontstuff" style = "color: white;">DATABASE <br /> REPOSITORY</h2></b>
-         <i class="large material-icons" style = "font-size: 65px !important; color: white;">cloud_download</i>
+         <i class="large material-icons" id= "icon1" style = "font-size: 89px !important; color: white; margin-bottom: 14px;;">cloud_download</i>
 <!--          <h2 class="survey">DATABASE <br /> REPO</h2> -->
 						<p></p>
 
@@ -144,7 +154,7 @@ var ajax_object = {"ajax_url":"http:\/\/homegrowntools.unc.edu\/wp-admin\/admin-
 
 					<!--	<h2 class="map">EXPLORE</br>STATISTICS</h2> -->
           <h2 class= "fontstuff" style = "color: white;">INTERACTIVE</br>DASHBOARDS</h2>
-          <i class="large material-icons" style = "font-size: 65px !important; color: white;">insert_chart</i>
+          <i class="large material-icons" id= "icon2" style = "font-size: 89px !important; color: white; margin-bottom: 14px;;">insert_chart</i>
 						<p></p>
 
         		</div>
@@ -159,7 +169,7 @@ var ajax_object = {"ajax_url":"http:\/\/homegrowntools.unc.edu\/wp-admin\/admin-
 
 					<!--	<h2 class="strategy">TESTING<br />DOCUMENTATION</h2> -->
           <b><h2 class= "fontstuff" style = "color: white;">DATA<br />DOCUMENTATION</h2></b>
-            <i class="large material-icons" style = "font-size: 65px !important; color: white;">content_copy</i>
+            <i class="large material-icons" id= "icon3" style = "font-size: 82px !important; color: white;line-height: 1.2 !important; margin-bottom: 7px;">content_copy</i>
 						<p></p>
 
 	    		</div>
@@ -180,7 +190,7 @@ var ajax_object = {"ajax_url":"http:\/\/homegrowntools.unc.edu\/wp-admin\/admin-
 
 						<h2><b>ABOUT ENTREPRENEURSHIP RESEARCH DATA REPOSITORY</b></h2>
 
-								<p style = "text-align: justify; text-justify: inter-word; font-size: 1.7em; line-height: 1.2 !important;">UNC’s Kenan Institute of Private Enterprise and the Duke University Innovation and Entrepreneurship (I&E) initiative have embarked on a joint initiative to build a data repository to facilitate empirical research in entrepreneurship. This paper outlines our motivation for this project as well as our long-term goals of promoting empirical research by lowering the costs to researchers of data collection and aggregation.<br/><br/><a href = "/aboutus.php" ><b>Learn More</b></a>.</p>
+								<p style = "text-align: justify; text-justify: inter-word; font-size: 1.7em; line-height: 1.2 !important;">UNC’s Kenan Institute of Private Enterprise and the Duke University Innovation and Entrepreneurship (I&E) initiative have embarked on a joint initiative to build a data repository to facilitate empirical research in entrepreneurship. This paper outlines our motivation for this project as well as our long-term goals of promoting empirical research by lowering the costs to researchers of data collection and aggregation.<br/><br/><a href = "/aboutus.php" ><b>Learn More About Us</b></a>.</p>
 						</div>
 						</section>
 			</div>
@@ -206,7 +216,7 @@ var ajax_object = {"ajax_url":"http:\/\/homegrowntools.unc.edu\/wp-admin\/admin-
          </div>
            <div class="row">
               <div class="large-12 columns text-center"><h2 ><a href="https://www.kenaninstitute.unc.edu/index.php/publication/the-role-of-accelerator-designs-in-mitigating-bounded-rationality-in-new-ventures/" style= "font-size: 1.3em !important;text-decoration: none !important;">The Role of Accelerator Designs in Mitigating Bounded Rationality in New Ventures</a></h2>
-                <p style="margin-top: 43px; color: white;  text-align: justify;  text-justify: inter-word; margin-left:auto; height:183px; font-size: 1.1em;">Using a nested multiple-case study of participating ventures, directors, and mentors of eight of the original U.S. accelerators, we explore how accelerators’ program designs influence new ventures’ ability to access, interpret, and process the external information needed to survive and grow...
+                <p style="margin-top: 43px; color: white;  text-align: justify;  text-justify: inter-word; margin-left:auto; height:183px; font-size: 1.1em;">Using a nested multiple-case study of participating ventures, directors, and mentors of eight of the original U.S. accelerators, we explore how accelerators’ program designs influence new ventures’ ability to access, interpret, and process the external information needed to survive and...
                 </br><a href = "https://www.kenaninstitute.unc.edu/index.php/publication/the-role-of-accelerator-designs-in-mitigating-bounded-rationality-in-new-ventures/"> <b>Learn More</b></a></p>
              </div>
            </div>
@@ -218,7 +228,7 @@ var ajax_object = {"ajax_url":"http:\/\/homegrowntools.unc.edu\/wp-admin\/admin-
   <div class="row">
     <div class="large-12 columns text-center"><h2><a href="https://www.kenaninstitute.unc.edu/index.php/publication/do-business-ecosystems-see-color/" style= "font-size: 1.3em !important;text-decoration: none !important;">Do Business Ecosystems See Color?</a></h2>
       <p  style=" text-align: justify;
-  text-justify: inter-word; color: white; margin-top: 63px; margin-left:auto;height: 183px; font-size: 1.1em;">This article describes an American community survey and a survey of business owners of which the data are merged to assess the experiences of minority- versus white-owned small businesses between 2007 and 2012. This is highlighted due to it being a period encompassing the worst economic downturn since...
+  text-justify: inter-word; color: white; margin-top: 63px; margin-left:auto;height: 183px; font-size: 1.1em;">This article describes an American community survey and a survey of business owners of which the data are merged to assess the experiences of minority- versus white-owned small businesses between 2007 and 2012. This is highlighted due to it being a period encompassing the worst...
       </br><a href = "https://www.kenaninstitute.unc.edu/index.php/publication/do-business-ecosystems-see-color/" ><b>Learn More</b></a></p>
 </div>
 </div>
@@ -231,7 +241,7 @@ var ajax_object = {"ajax_url":"http:\/\/homegrowntools.unc.edu\/wp-admin\/admin-
   <div class="row">
     <div class="large-12 columns text-center"><h2><a href="https://www.kenaninstitute.unc.edu/index.php/publication/chasing-entrepreneurial-firms/" style= "font-size: 1.3em !important;text-decoration: none !important;">Chasing Entrepreneurial Firms</a></h2>
       <p style="color: white;  text-align: justify;
-  text-justify: inter-word ;margin-top: 89px; margin-left:auto; height: 183px; font-size: 1.1em;">The search for a reliable data-set of entrepreneurial firms is ongoing. We analyze and assess longitudinal data on startups from two data sources – the National Establishment Time-Series (NETS) database and the Secretary of State (SOS) business registry data. Our primary purposes in this paper are to assess the...
+  text-justify: inter-word ;margin-top: 89px; margin-left:auto; height: 183px; font-size: 1.1em;">The search for a reliable data-set of entrepreneurial firms is ongoing. We analyze and assess longitudinal data on startups from two data sources – the National Establishment Time-Series (NETS) database and the Secretary of State (SOS) business registry data. Our...
       </br><a href = "https://www.kenaninstitute.unc.edu/index.php/publication/chasing-entrepreneurial-firms/"><b>Learn More</b></a></p>
 </div>
 </div>
