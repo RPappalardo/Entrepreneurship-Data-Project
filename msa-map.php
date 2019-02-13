@@ -230,7 +230,7 @@ var ajax_object = {"ajax_url":"http:\/\/homegrowntools.unc.edu\/wp-admin\/admin-
             <a href="https://www.kenaninstitute.unc.edu/" target="_blank";><img src="/img/newKIPE.png"/></a>
           </li>
 					<li class="large-3 medium-3 columns" >
-						<a href="https://entrepreneurship.duke.edu/" target="_blank";><img src="/img/dukeLogo.png"></a>
+						<a href="https://entrepreneurship.duke.edu/" target="_blank";><img style = "padding-top: 20px;" src="/img/dukeLogo.png"></a>
 					</li>
 
 			</ul>
