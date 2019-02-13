@@ -190,7 +190,7 @@ var ajax_object = {"ajax_url":"http:\/\/homegrowntools.unc.edu\/wp-admin\/admin-
 
 						<h2><b>ABOUT ENTREPRENEURSHIP RESEARCH DATA REPOSITORY</b></h2>
 
-								<p style = "text-align: justify; text-justify: inter-word; font-size: 1.7em; line-height: 1.2 !important;">UNC’s Kenan Institute of Private Enterprise and the Duke University Innovation and Entrepreneurship (I&E) initiative have embarked on a joint initiative to build a data repository to facilitate empirical research in entrepreneurship. This paper outlines our motivation for this project as well as our long-term goals of promoting empirical research by lowering the costs to researchers of data collection and aggregation.<br/><br/><a href = "/aboutus.php" ><b>Learn More About Us</b></a>.</p>
+								<p style = "text-align: justify; text-justify: inter-word; font-size: 1.7em; line-height: 1.2 !important;">UNC’s Kenan Institute of Private Enterprise and the Duke University Innovation and Entrepreneurship (I&E) initiative have embarked on a joint initiative to build a data repository to facilitate empirical research in entrepreneurship. This paper outlines our motivation for this project as well as our long-term goals of promoting empirical research by lowering the costs to researchers of data collection and aggregation.<br/><br/><a href = "/aboutus.php" ><b>Learn More About Us</b></a></p>
 						</div>
 						</section>
 			</div>
