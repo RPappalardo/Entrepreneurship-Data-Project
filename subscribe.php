@@ -12,6 +12,21 @@
 </head>
 <body class="mainBackground">
 
+	<style type="text/css">
+
+	.fontstuff {
+	/*  float: left; */
+	align-content: center;
+	text-align: center;
+	display: block;
+	width: 100%;
+	height: auto;
+	color: #ffffff;
+	line-height: 1;
+	font-weight: 800;
+	font-size: 1.9em;
+	}
+	</style>
 <div id="theError" style="position:fixed; width:100%; height:100%; top:0; right:0; left:0; bottom:0; background-color:rgba(0,0,0,0.8);z-index:9999; display:none;">
     <div class="row" style="margin-top:10%;">
         <div class="large-3 columns">&nbsp;</div>
@@ -90,27 +105,28 @@ return true;
 	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAckI2AUU4sIeFIpRHi7kTOLTNr8+Dx/H+2fNfPhxgyex+tZBdiRon5d1qE03oo5TvNDB2YfWbjwUYntrwPx36ESnNqWGF1p3dK5b8LCSQgWKIlA1TEKu/hzq99I8e+5xSLN+DvxnwFeFeJ9MIBWR693jq/j8R/jIcomrkcyosRfo36ULQ/ArbFpXhDTcNlzWuI=" />
 </div>
         <div>
-                        <div class="row" style="margin-bottom:20px;">
-                        <div class="large-4 columns text-center">&nbsp;
-                        </div>
-                        <div class="large-4 columns text-center">
-                            <a href="/">
-                            <div  id="logoHomePage"><h1 style = "color: white;">ENTREPRENEURSHIP<br/><span style="font-weight:400; color: white;">Data Project</span></h1></div></a>
+					<!--START Navigation Menu -->
 
-                        </div>
-                        <div class="large-4 columns text-center">&nbsp;
-                        </div>
-                        </div>
+						<div class="large-12 medium-12 columns">
+						<header style="padding-top:0;">
+						<!-- START Subscribe for updates -->
+
+						<!--START Logo in Nav Menu -->
+							<div class="navMenu">
+									<div class="homePageLink">
+				              <a href ="/index.php"> <div  id="logoHomePage"><h1 class= "fontstuff" style = "font-size: 2.5em !important;color: white;">ENTREPRENEURSHIP<br/><span style="font-weight:400; color: white">Data Project</span></h1></div></a>
+									</div>
+							</div>
+
+
+					</header>
+<br/> <br/>
+					</div>
+						<!--END Logo in Nav Menu -->
 
             <div class="row" style="max-width:55em;">
             <div class="large-12 columns">
-
-
-
                     <div id="Panel1">
-
-
-
                     <div class="row">
 
                         <div class="large-12 columns">

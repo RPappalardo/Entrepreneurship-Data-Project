@@ -9,16 +9,17 @@
 	var template_url = "http://homegrowntools.unc.edu/wp-content/themes/casestudy";
 </script>
 
-	<!-- Phillippa : Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132667962-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-		gtag('config', 'UA-132667962-1');
-	</script>
-	<!-- Phillippa: End Google Analyticss-->
 <style>
+.fontstuff {
+  align-content: center;
+text-align: center;
+display: block;
+width: 100%;
+height: auto;
+line-height: 1;
+font-weight: 800;
+font-size: 1.9em;
+}
 .subscribeHere, .subscribeHere::after {
     content: "CONTACT US" !important;
     font-size: 1em;} </style>
@@ -34,54 +35,13 @@
 	<div class="row">
 	<div class="large-12 medium-12 columns" id="headerBackground">
 
-
-		<!-- START Subscribe for updates -->
-		<div class="subscribe large-12 columns">
-			<script src="//app.icontact.com/icp/static/form/javascripts/validation-captcha.js" type="text/javascript"></script>
-			<script src="//app.icontact.com/icp/static/form/javascripts/tracking.js" type="text/javascript"></script>
-			<link href="//app.icontact.com/icp/static/human/css/signupBuilder/formGlobalStyles.css" rel="stylesheet" type="text/css">
-
-			<form id="ic_signupform" captcha-key="6LeCZCcUAAAAALhxcQ5fN80W6Wa2K3GqRQK6WRjA" captcha-theme="light" new-captcha="true" action="https://app.icontact.com/icp/core/mycontacts/signup/designer/form/?id=72&cid=163989&lid=4686" method="POST">
-				<div class="elcontainer normal hidden-label">
-					<div class="form-header">
-						<h3>Subscribe for NCGrowth Newsletters and Updates</h3>
-					</div>
-
-					<div class="sortables">
-
-						<div class="formEl fieldtype-input required" style="width: 100%; display: inline-block;" data-validation-type="1" data-label="Email"><label>Email<span class="indicator required"></span></label>
-							<input name="data[email]" type="text" placeholder="ENTER EMAIL TO SUBSCRIBE FOR UPDATES" style="font-family: 'Work San', sans-serif; font-weight: 400 bolder; font-size: 12px; font-style: normal;">
-						</div>
-
-						<div class="formEl fieldtype-checkbox required" style="width: 100%; display: none;" dataname="listGroups" data-validation-type="1" data-label="Lists">
-							<h3>Lists<span class="indicator required"></span></h3>
-							<div class="option-container">
-								<label class="checkbox">
-									<input name="data[listGroups][]" type="checkbox" checked="checked" alt="Lists" value="51327">NCGrowth Newsletter</label>
-							</div>
-						</div>
-
-						<div class="submit-container"><input class="btn btn-submit" type="submit" value=">" style="font-family: 'Work San', sans-serif; font-weight: 600; font-size: 14px;">
-						</div>
-
-					</div>
-					<div class="hidden-container">
-					</div>
-
-				</div>
-				</form>
-				<img src="//app.icontact.com/icp/core/signup/tracking.gif?id=72&cid=163989&lid=4686"/>
-			</div>
-		<!-- END subscribe for updates -->
-
 		<!--START Logo in Nav Menu -->
 		<div class="row">
 			<div class="large-12 medium-12 columns">
 			<div class="navMenu" align="center">
 					<div class="homePageLink" style="margin-bottom: 20px;">
 						<a href = "/">
-						<!--	<img src="http://kenaninstitute.unc.edu/casestudy/wp-content/uploads/2018/01/logonew.png" id="logoHomePage"> -->
-            <h1>ENTREPRENEURSHIP<br/><span>Data Project</span></h1>
+						<h1 class= "fontstuff" style = "font-size: 2.5em !important;">ENTREPRENEURSHIP<br/><span>Data Project</span></h1>
 
 						</a>
 					</div>
